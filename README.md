@@ -1,2 +1,18 @@
-# Admin-Panel-Finder
-A Python-based cybersecurity tool that scans a target website for common admin panel paths. It checks multiple endpoints like /admin, /login, /dashboard, and more to identify accessible admin interfaces. Built with a hacker-style CLI UI for security testing and reconnaissance purposes.
+# Admin Panel Finder
+
+A simple cybersecurity utility that scans a target website for common admin panel paths.
+
+⚠ Use only for **authorized security testing** on websites you own or have permission to audit.
+
+## Features
+- Checks common admin paths
+- Terminal hacker-style banner UI
+- Fast HTTP based scanning
+
+## Usage
+
+python admin_panel_finder.py https://example.com
+
+## Requirements
+
+pip install -r requirements.txt
